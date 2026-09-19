@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <h2 class="logo">Sanduni.</h2>
+
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="home-content">
+            <p>Hello, I'm</p>
+
+            <h1>Sanduni Ariyarathna</h1>
+
+            <h2>UI/UX Designer | Frontend Developer</h2>
+
+            <p class="description">
+           Hi, I’m Sanduni, an HNDIT student interested in UI/UX design and frontend development.<br> 
+           I enjoy creating simple, clean, and user-friendly digital experiences. I’m also interested in Business Analysis and Project Management, and I’m always looking to learn and grow my skills.
+
+        </p>
+
+        <div class="home-buttons">
+             <button onclick="document.getElementById('projects').scrollIntoView({ behavior: 'smooth' })">
+        View My Work
+    </button>
+
+    <button class="contact-btn" onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })">
+        Contact Me
+    </button>
+
+
+             <a href="cv.pdf" download class="cv-btn"> Download CV</a>
+             <div class="social-links">
+                <a href="https://www.linkedin.com/in/sanduni-ariyarathna/" target="_blank">LinkedIn</a>
+                <a href="https://github.com/sanduni-ariyarathna" target="_blank">GitHub</a>
+             </div>
+        
+            </div>
+    </div>
+
+    <div class="home-image">
+        <img src="images/profile.jpeg" alt="Sanduni Ariyarathna">
+    </div>
+
+</section>
+
+
+    
+   <!-- About Section -->
+<section id="about">
+
+    <div class="about-container">
+
+        <div class="about-title">
+            <p class="section-label">ABOUT ME</p>
+            <h2>Designing with purpose,<br>building with creativity.</h2>
+        </div>
+
+      <p>
+    I am an HNDIT student with a strong interest in UI/UX design and frontend development.
+    I enjoy creating simple, clean, and user-friendly digital experiences using Figma.
+</p>
+
+<p>
+    Through my academic projects, I have gained experience in wireframing, prototyping,
+    responsive UI design, and web development. I also have an interest in Business Analysis
+    and IT Project Management.
+</p>
+
+<p>
+    I enjoy learning new things, improving my skills, and working on new ideas.
+    My goal is to gain real-world experience and grow as a UI/UX Designer and Frontend Developer.
+</p>
+
+<div class="about-tags">
+    <span>UI/UX Design</span>
+    <span>Frontend Development</span>
+    <span>Business Analysis</span>
+    <span>Project Management</span>
+</div>
+
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Skills Section -->
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skills-container">
+
+        <div class="skill-card">
+            <h3>UI/UX Design</h3>
+            <p>Figma | Wireframing | Prototyping | Responsive UI Design</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Frontend Development</h3>
+            <p>HTML | CSS | JavaScript | Bootstrap</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Backend Development</h3>
+            <p>PHP | MySQL</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Business Analysis</h3>
+            <p>Requirements Gathering | UML | Business Process Analysis</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Project Management</h3>
+            <p>Project Planning | Agile | Scrum | Risk Management</p>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Projects Section -->
+<section id="projects">
+
+    <p class="section-subtitle">My Work</p>
+    <h2>My Projects</h2>
+
+    <div class="projects-container">
+
+        <!-- Nexora Petal Bar -->
+        <div class="project-card">
+
+             <video controls>
+                <source src="videos/Nexora .mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="project-content">
+                <h3>Nexora Petal Bar</h3>
+
+                <p>
+                    An online flower shop designed and developed
+                    with a simple and user-friendly interface.
+                </p>
+
+                <p class="tech">
+                    HTML | CSS | PHP | MySQL | JavaScript | Bootstrap
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+
+
+        <!-- Learning Management System -->
+        <div class="project-card">
+
+            <div class="project-image">
+                <div class="project-placeholder">
+                    Learning Management System
+                </div>
+            </div>
+
+            <div class="project-content">
+                <h3>Learning Management System</h3>
+
+                <p>
+                    A clean and simple UI design for a
+                    learning management system.
+                </p>
+
+                <p class="tech">
+                    Figma | UI/UX Design
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+
+
+        <!-- Monkland Cheese Dairy -->
+        <div class="project-card">
+
+             <video controls>
+                <source src="videos/Nursery school.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="project-content">
+                <h3>Lotus Little Nursery Management</h3>
+
+                <p>
+                    Designed a simple and user-friendly Nursery Management System using Figma and created an interactive prototype to improve the user experience.
+
+                </p>
+
+                <p class="tech">
+                    Figma | UI/UX Design | Prototyping
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+
+
+        <!-- Your Choice Our Dress -->
+        <div class="project-card">
+
+            <video controls>
+                <source src="videos/dress%20shop.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+
+            <div class="project-content">
+                <h3>Your Choice Our Dress</h3>
+
+                <p>
+                    A clothing website designed with a simple
+                    and attractive user interface.
+                </p>
+
+                <p class="tech">
+                    HTML | CSS | JavaScript | Bootstrap 
+                </p>
+
+                <a href="#" class="project-btn">View Project</a>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- Contact Section -->
+<section id="contact">
+
+    <p class="section-subtitle">Get In Touch</p>
+
+    <h2>Contact Me</h2>
+
+    <p class="contact-intro">
+        If you have an opportunity or would like to work with me,
+        feel free to get in touch.
+    </p>
+
+    <div class="contact-container">
+
+        <div class="contact-card">
+            <h3>Email</h3>
+            <p>sanduni1official@gmail.com</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Phone</h3>
+            <p>+94 71 383 5651</p>
+            <p>+94 76 528 7220</p>
+        </div>
+
+        <div class="contact-card">
+            <h3>Location</h3>
+            <p>Kegalle , Sri Lanka</p>
+        </div>
+
+    </div>
+
+    <a href="mailto:sanduni1official@gmail.com" class="contact-btn">
+    Send Me an Email
+</a>
+
+
+
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Sanduni Ariyarathna. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
