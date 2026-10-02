@@ -172,7 +172,7 @@ section h2 {
 }
 
 
-/* ===== About ===== */
+
 
 /* ===== About ===== */
 
@@ -224,50 +224,58 @@ section h2 {
     color: #444;
 }
 
-/* Skills Section */
-#skills {
-    padding: 80px 10%;
-    text-align: center;
-}
+/* ===== UI/UX Skills ===== */
 
-#skills h2 {
-    font-size: 35px;
-    margin-bottom: 40px;
+#skills {
+    background: #ffffff;
 }
 
 .skills-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 25px;
-    max-width: 1000px;
+    max-width: 1200px;
     margin: auto;
+}
+
+#skills h2 {
+    font-size: 38px;
+    margin-bottom: 15px;
+}
+
+.skills-description {
+    color: #666;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
 }
 
 .skill-card {
     padding: 30px;
-    border-radius: 15px;
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    box-shadow: 0 5px 15px rgba(136, 48, 225, 0.319);
+    background: #f8f8ff;
+    border: 1px solid #eeeeff;
+    border-radius: 14px;
     transition: 0.3s ease;
 }
 
+.skill-card:hover {
+    transform: translateY(-6px);
+    border-color: #6c63ff;
+    box-shadow: 0 10px 30px rgba(108, 99, 255, 0.10);
+}
+
 .skill-card h3 {
-    font-size: 21px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    margin-bottom: 12px;
+    color: #292929;
 }
 
 .skill-card p {
+    color: #666;
     font-size: 15px;
-    line-height: 1.6;
 }
-
-.skill-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
-}
-
-
 /* Projects Section */
 
 #projects {
@@ -658,4 +666,12 @@ footer {
 .social-links a:hover {
     color: #333;
     transform: translateY(-2px);
+}
+
+.skills-grid {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#skills h2 {
+    font-size: 30px;
 }
